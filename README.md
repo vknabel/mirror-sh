@@ -3,10 +3,10 @@
 A small script responsible to mirror online resources like repositories or files locally and acts the most basic version of a bash-package-manager.
 In most cases Mirror adds offline capabilities to the typical `curl url | bash`-pattern and extends it to repositories.
 
-| Subcommand                                | Returns             |
-| ----------------------------------------- | ------------------- |
-| `mirror file url`                         | File contents.      |
-| `mirror repo url-or-github-repo [branch | tag | commit]` | Path to repository. |
+| Subcommand                                               | Returns             |
+| -------------------------------------------------------- | ------------------- |
+| `mirror file url`                                        | File contents.      |
+| `mirror repo url-or-github-repo [branch tag commit]` | Path to repository. |
 
 ## Installation
 
