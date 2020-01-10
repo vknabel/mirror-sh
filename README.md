@@ -41,7 +41,7 @@ function mirror-swiftpm() {
 
 # Runs a specific Swift Package in a specific version
 function archery@maser() {
-    mirror-swiftpm vknabel/Archery master archery $@
+    mirror-swiftpm https://github.com/vknabel/Archery master archery $@
 }
 ```
 
