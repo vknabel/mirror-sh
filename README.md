@@ -10,6 +10,15 @@ In most cases Mirror adds offline capabilities to the typical `curl url | bash`-
 
 ## Installation
 
+### Homebrew
+
+```bash
+$ brew tap vknabel/mirror-sh https://github.com/vknabel/mirror-sh
+$ brew install mirror-sh
+```
+
+### Manual
+
 ```bash
 $ curl https://raw.githubusercontent.com/vknabel/mirror-sh/master/mirror.sh > /usr/local/bin/mirror
 $ chmod +x /usr/local/bin/mirror
